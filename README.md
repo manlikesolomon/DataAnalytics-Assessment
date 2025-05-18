@@ -1,6 +1,6 @@
 # DataAnalytics-Assessment
 
-### Assessment_Q1 – High-Value Customers with Multiple Products
+1. ### Assessment_Q1 – High-Value Customers with Multiple Products
 
 **Goal:**  
 Identify customers who have both funded savings and funded investment plans, to support cross-selling strategies.
@@ -30,7 +30,7 @@ Identify customers who have both funded savings and funded investment plans, to 
 **Note:**  
 Only customers with both plan types and confirmed deposits are included in the final result, ensuring accuracy in targeting for cross-sell opportunities.
 
-### Assessment_Q2 – Transaction Frequency Analysis
+2. ### Assessment_Q2 – Transaction Frequency Analysis
 
 **Goal:**  
 Segment customers into transaction frequency categories (High, Medium, Low) based on how often they transact each month.
@@ -59,7 +59,7 @@ Segment customers into transaction frequency categories (High, Medium, Low) base
 **Note:**  
 Only successful transactions (`transaction_status = 'success'`) were considered to ensure accurate frequency segmentation.
 
-### Assessment_Q3 – Account Inactivity Alert
+3. ### Assessment_Q3 – Account Inactivity Alert
 
 **Goal:**  
 Identify active plans (either savings or investments) that have not received any inflow transactions in the past 365 days.
@@ -97,7 +97,7 @@ for plans that have been inactive for over one year.
 **Note:**  
 This logic ensures that only active, funded plans with no inflows in the past 365 days are returned for alerting.
 
-### Assessment_Q4 – Customer Lifetime Value (CLV) Estimation
+4. ### Assessment_Q4 – Customer Lifetime Value (CLV) Estimation
 
 **Goal:**  
 Estimate the Customer Lifetime Value (CLV) based on historical transaction behavior and tenure.
